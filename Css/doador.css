@@ -7,4 +7,11 @@ footer {
   display: none;
 }
 
+label{
+  display: flex;
+}
+
+footer{
+  margin-top: 15px;
+}
 /*# sourceMappingURL=estilos.css.map */
