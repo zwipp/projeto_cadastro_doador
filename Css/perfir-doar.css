@@ -1,0 +1,101 @@
+footer {
+    height: 300px;
+    background: #4B515D;
+  }
+
+#corpo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+#perfil{
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: 20%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#perfil div{
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-doador{
+    margin-top: 25px;
+}
+
+.dados-doador div{
+    margin-bottom: 12px;
+}
+
+#produtos {
+    
+    border: 1px solid black;
+    width: 80%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.produto-registrado{
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid black;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.dados-produto{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-produto{
+    width: 100%;
+}
+
+.img-prod{
+    width: 30%;
+    margin-right: 15px;
+}
+
+.foto-perfil{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+@media (max-width: 960px){
+    #corpo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    } 
+
+    #perfil{
+        background-color: aliceblue;
+        border: 1px solid black;
+        width: 20%;
+        padding: 2%;
+        display: flex;
+        flex-direction: row;;
+    
+    }
+
+    #perfil div{
+        flex-direction: row;
+    }
+    
+    .produto-registrado{
+        flex-direction: column;
+    }
+
+    .dados-doador{
+        display: none;
+    }
+}
